@@ -1,0 +1,25 @@
+module addgen(add, clk, cen);
+
+input clk;
+input cen;
+output [7:0]add;
+reg [7:0]add;
+
+always@(posedge clk)
+begin
+if(cen==0)
+begin
+add<=0;
+end
+else
+begin
+ if (add <=8'd243)
+ add <=add+8'd1;
+ else
+ add<=add;
+ end
+end
+endmodule
+
+
+

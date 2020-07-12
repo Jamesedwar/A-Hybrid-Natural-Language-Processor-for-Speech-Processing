@@ -1,0 +1,85 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 10.0 Build 218 06/27/2010 SJ Web Edition
+# Date created = 23:32:31  January 15, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		LP_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C8
+set_global_assignment -name TOP_LEVEL_ENTITY LP
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 10.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:32:31  JANUARY 15, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 10.0
+set_global_assignment -name VERILOG_FILE word_Library.v
+set_global_assignment -name VERILOG_FILE Wo.v
+set_global_assignment -name VERILOG_FILE Wk.v
+set_global_assignment -name VERILOG_FILE Wi.v
+set_global_assignment -name VERILOG_FILE Wf.v
+set_global_assignment -name VERILOG_FILE Vo.v
+set_global_assignment -name VERILOG_FILE Uo.v
+set_global_assignment -name VERILOG_FILE Uk.v
+set_global_assignment -name VERILOG_FILE Ui.v
+set_global_assignment -name VERILOG_FILE Uf.v
+set_global_assignment -name VERILOG_FILE TX.v
+set_global_assignment -name VERILOG_FILE SR2.v
+set_global_assignment -name VERILOG_FILE SigmoidROM.v
+set_global_assignment -name VERILOG_FILE RX.v
+set_global_assignment -name VERILOG_FILE query_detect.v
+set_global_assignment -name VERILOG_FILE Qdict.v
+set_global_assignment -name VERILOG_FILE Qdata.v
+set_global_assignment -name VERILOG_FILE ProcessOp.v
+set_global_assignment -name VERILOG_FILE ProcessInp.v
+set_global_assignment -name VERILOG_FILE Predict.v
+set_global_assignment -name VERILOG_FILE OpHold.v
+set_global_assignment -name VERILOG_FILE mult8.v
+set_global_assignment -name VERILOG_FILE LSTMnet.v
+set_global_assignment -name VERILOG_FILE LSTM.v
+set_global_assignment -name VERILOG_FILE addgen.v
+set_global_assignment -name VERILOG_FILE add8.v
+set_global_assignment -name VERILOG_FILE Bf.v
+set_global_assignment -name VERILOG_FILE Bi.v
+set_global_assignment -name VERILOG_FILE Bk.v
+set_global_assignment -name VERILOG_FILE Bo.v
+set_global_assignment -name VERILOG_FILE delay.v
+set_global_assignment -name VERILOG_FILE DiaMod.v
+set_global_assignment -name VERILOG_FILE enable.v
+set_global_assignment -name VERILOG_FILE Hexa_Key_Encoder.v
+set_global_assignment -name VERILOG_FILE Kcomp.v
+set_global_assignment -name VERILOG_FILE KeyEncoder.v
+set_global_assignment -name VERILOG_FILE LP.v
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V

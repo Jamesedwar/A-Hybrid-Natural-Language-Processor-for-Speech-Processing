@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at NLProc.v(7): object "Add" differs only in case from object "add" in the same scope
+Info (10281): Verilog HDL Declaration information at LSTMnet.v(5): object "add" differs only in case from object "Add" in the same scope

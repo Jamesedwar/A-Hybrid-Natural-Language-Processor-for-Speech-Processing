@@ -1,0 +1,28 @@
+ 
+
+
+module Qdata_tb;
+reg          clk, rst;
+reg         [7:0] Inp;
+wire        [7:0]Bout;
+
+Qdata uut1(clk, rst, Inp, Bout);
+
+initial
+begin
+clk=1;
+forever #10 clk=~clk;
+end
+
+initial
+begin
+rst=0;
+#10 rst=1;
+end
+
+initial
+begin
+Inp=8'd1;
+end
+endmodule
+

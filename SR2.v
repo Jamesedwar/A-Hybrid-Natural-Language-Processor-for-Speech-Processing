@@ -1,0 +1,30 @@
+module SR2(clk, ce, ls, sin, sout);
+
+input     clk, ce, ls;
+input       [7:0] sin;
+output    [63:0] sout;
+reg       [63:0] sout;
+reg [63:0]       smem;
+
+always @(posedge clk or negedge ce)
+begin
+if(ce==0)
+begin
+sout <= 64'd0;
+smem <= 64'd0;
+end
+else
+begin
+if(ls==1)
+begin
+smem <= {smem[55:0],sin};
+sout <= 64'h20;
+end
+else
+begin
+sout <= smem;
+smem <= smem;
+end
+end
+end
+endmodule
